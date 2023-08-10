@@ -14,18 +14,20 @@ sudo apt install xfce4 xfce4-terminal
 clear
 sudo apt install curl
 clear
-
- sudo apt update
- sudo apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
- sudo apt install -y tightvncserver nano net-tools
- sudo vncserver
- 
-sudo nano ~/.vnc/xstartup
-
-
-sudo vncserver -kill :1
+sudo apt update
+clear
+sudo apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+clear
+sudo apt install -y tightvncserver nano net-tools
+clear
 sudo vncserver
-
+clear 
+sudo nano ~/.vnc/xstartup
+clear
+sudo vncserver -kill :1
+clear
+sudo vncserver
+clear
 sudo apt install novnc
-
+clear
 websockify -D --web=/usr/share/novnc/ --cert=/etc/ssl/novnc.pem 6080 localhost:5901
