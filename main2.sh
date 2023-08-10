@@ -1,4 +1,4 @@
-sudo su
+
 sudo apt update -y
 sudo apt-get install iptables sudo -y
 sudo apt install ubuntu-desktop
