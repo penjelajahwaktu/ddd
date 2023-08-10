@@ -14,6 +14,8 @@ sudo apt install xfce4 xfce4-terminal
 clear
 sudo apt install curl
 clear
+sudo apt install vim
+clear
 sudo apt update
 clear
 sudo apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
@@ -22,7 +24,7 @@ sudo apt install -y tightvncserver nano net-tools
 clear
 sudo vncserver
 clear 
-sudo nano ~/.vnc/xstartup
+sudo vim ~/.vnc/xstartup
 clear
 sudo vncserver -kill :1
 clear
