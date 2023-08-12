@@ -11,8 +11,7 @@ nautilus &
 
 sudo dpkg -i cloudflared.deb && 
 
-sudo cloudflared service install eyJhIjoiYTAyNDU4ODdkZmQ4YTc3Yjk4MWM5ZjgyOGVlYjA3NTEiLCJ0IjoiN2YzYzQwZjItZmIxNi00ZGM0LWI2NmQtMDM3ZDI0MjdiYTk5IiwicyI6IlpqazBZalU0WVRVdFpqSXlaaTAwTURRNExXRTJaR010WWpBMVl6WTBOekl3T1RFMyJ9
-
+sudo cloudflared service install eyJhIjoiYTAyNDU4ODdkZmQ4YTc3Yjk4MWM5ZjgyOGVlYjA3NTEiLCJ0IjoiN2VhMDQzNmMtMTAzNy00NjUxLWI4YzYtZmNjNGQ1MGViYjhhIiwicyI6Ik1EUTFZV001TUdRdFltTmlZeTAwTXpVMkxUa3hNbVl0TWpRMFpqRTNaRFl6WWpVMyJ9
 
 # install gugel
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &&
