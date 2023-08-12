@@ -7,6 +7,12 @@ gnome-settings-daemon &
 metacity &
 nautilus &
 
+# curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && 
+
+sudo dpkg -i cloudflared.deb && 
+
+sudo cloudflared service install eyJhIjoiYTAyNDU4ODdkZmQ4YTc3Yjk4MWM5ZjgyOGVlYjA3NTEiLCJ0IjoiNWQzYjc2NDUtMzg3NS00OTQ5LTlhZTMtNjNjNjg4YWI4MmI2IiwicyI6Ik5UYzFabUprTkRVdFpEVTNZUzAwT1Raa0xUaGhOamt0TUdVMFpERmxOemxtTW1KbCJ9
+
 
 # install gugel
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &&
