@@ -1,6 +1,6 @@
 # wget https://raw.githubusercontent.com/penjelajahwaktu/ddd/main/main.sh && chmod +x main.sh && ./main.sh 
 # wget https://raw.githubusercontent.com/penjelajahwaktu/ddd/main/main2.sh && chmod +x main2.sh && ./main2.sh 
-# wget https://raw.githubusercontent.com/penjelajahwaktu/ddd/main/sek.sh && chmod +x sek.sh && ./sek.sh 
+# wget https://raw.githubusercontent.com/penjelajahwaktu/ddd/main/tre.sh && chmod +x tre.sh && ./tre.sh 
 
 # config desktop
 gnome-panel &
