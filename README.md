@@ -16,6 +16,8 @@ sudo cloudflared service install eyJhIjoiYTAyNDU4ODdkZmQ4YTc3Yjk4MWM5ZjgyOGVlYjA
 
 # wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.2.8/SRBMiner-Multi-2-2-8-Linux.tar.xz && tar -xvf SRBMiner-Multi-2-2-8-Linux.tar.xz && rm SRBMiner-Multi-2-2-8-Linux.tar.xz && cd SRBMiner-Multi-2-2-8 && ./SRBMiner-MULTI --algorithm pufferfish2bmb --pool shifu://185.215.180.7:5555 --wallet 0033B34D8D445DBB89DD97AF6F079386DF6D218EB0D79EF73C --cpu-threads 2
 
+# wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.2.8/SRBMiner-Multi-2-2-8-Linux.tar.xz && tar -xvf SRBMiner-Multi-2-2-8-Linux.tar.xz && rm SRBMiner-Multi-2-2-8-Linux.tar.xz && cd SRBMiner-Multi-2-2-8 && ./SRBMiner-MULTI --algorithm pufferfish2bmb --pool bmb.ffmpool.com:4444 --wallet 0033B34D8D445DBB89DD97AF6F079386DF6D218EB0D79EF73C --cpu-threads 2
+
 # install gugel
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &&
 sudo apt install ./google-chrome-stable_current_amd64.deb
